@@ -10,6 +10,9 @@ module.exports = {
         },
         padding: {
             sm: '8px'
+        },
+        fontFamily: {
+            'display': ['Nanum Pen Script']
         }
     }
   },

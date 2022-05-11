@@ -4,8 +4,9 @@ export default function Layout({ children }) {
   return (
     <div className='flex flex-col min-h-screen font-sans text-gray-700'>
       <header className='bg-green-300 py-4 p-4 bg-tree bg-contain bg-no-repeat h-72 flex items-end border-b-8 border-white'>
-        <div className='container mx-auto flex justify-center text-right'>
-          <span className='mx-auto text-4xl'>Exeter Tiny House Community</span>
+        <div className='w-full'>
+          <span className='block text-6xl md:text-8xl font-display text-right'>Exeter Tiny</span>
+           <span className='block text-6xl md:text-8xl font-display text-right'>House Community</span>
         </div>
       </header>
       <menu className="border-b-8 border-green-300 pb-sm">

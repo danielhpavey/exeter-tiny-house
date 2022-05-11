@@ -22,7 +22,7 @@ export default function IndexPage({ frontmatter, content }) {
 }
 
 export async function getStaticProps() {
-  const fileName = fs.readFileSync(`posts/pages/home.md`, 'utf-8');
+  const fileName = fs.readFileSync(`posts/pages/faq.md`, 'utf-8');
   const { data: frontmatter, content } = matter(fileName);
   return {
     props: {
