@@ -6,12 +6,13 @@ export default function Layout({ children }) {
       <menu className="pb-sm">
 	  	<div className="w-full bg-green-400 text-right text-lg">
 	  		<span className="inline-block "><Link href='/'><a className="block hover:bg-green-500 transition hover:text-white p-3 duration-500">Home</a></Link></span>
+	  		<span className="inline-block "><Link href='/about'><a className="block hover:bg-green-500 transition hover:text-white p-3 duration-500">About</a></Link></span>
 	  		<span className="inline-block "><Link href='/vision'><a className="block hover:bg-green-500 transition hover:text-white p-3 duration-500">Vision</a></Link></span>
 	  		<span className="inline-block "><Link href='/contact'><a className="block hover:bg-green-500 transition hover:text-white p-3 duration-500">Contact</a></Link></span>
 	  		<span className="inline-block "><Link href='/faq'><a className="block hover:bg-green-500 transition hover:text-white p-3 duration-500">FAQ</a></Link></span>
 	  	</div>
       </menu>
-      <header className='bg-green-300 py-4 p-4 bg-tree bg-contain bg-no-repeat h-72 flex items-end'>
+      <header className='mb-4 bg-green-300 py-4 p-4 bg-tree bg-contain bg-no-repeat h-72 flex items-end'>
         <div className='w-full'>
           <span className='block text-6xl md:text-8xl font-display text-right'>Exeter Tiny</span>
            <span className='block text-6xl md:text-8xl font-display text-right'>House Community</span>
