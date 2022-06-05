@@ -15,7 +15,22 @@ export default function IndexPage({ frontmatter, content }) {
             </Head>
             <div className='mx-auto prose'>
                 <h1 className="text-5xl mb-7">{frontmatter.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+               <form name="contact" method="POST" data-netlify="true">
+                  <input type="hidden" name="subject" 
+                  value="Exexter Tiny House Contact Form" />
+                  <p>
+                    <label>Your Name: <input type="text" name="name" /></label>
+                  </p>
+                  <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                  </p>
+                  <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                  </p>
+                  <p>
+                    <button type="submit">Send</button>
+                  </p>
+                </form>
             </div>
         </div>
   );
