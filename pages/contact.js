@@ -15,7 +15,7 @@ export default function IndexPage({ frontmatter, content }) {
             </Head>
             <div className='mx-auto prose'>
                 <h1 className="text-5xl mb-7">{frontmatter.title}</h1>
-               <form name="contact" method="POST" data-netlify="true" action="contact/?success=true" >
+               <form name="contact" method="POST" data-netlify="true" action="/" >
                   <input type="hidden" name="subject" 
                   value="Exexter Tiny House Contact Form" />
                   <p>
