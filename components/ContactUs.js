@@ -179,9 +179,9 @@ export default function ContactUs() {
       </div>
           <div className="">
             {showSuccessMessage && (
-              <p className="">
-                Thankyou! Your Message has been delivered.
-              </p>
+            <div class="p-4 my-4 text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800" role="alert">
+              <span class="font-medium">Thank you! Your Message has been delivered.</span>
+            </div>
             )}
             {showFailureMessage && (
               <p className="">
