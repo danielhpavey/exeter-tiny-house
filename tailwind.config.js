@@ -13,6 +13,9 @@ module.exports = {
         },
         fontFamily: {
             'display': ['Nanum Pen Script']
+        },
+        colors: {
+            'tiny': '#C5C6D0'
         }
     }
   },
