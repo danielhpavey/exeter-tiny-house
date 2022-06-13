@@ -10,7 +10,7 @@ import Link from 'next/link';
 export default function FaqPage({ posts }) {
   return (
     <div className=''>
-      <h1 className="text-5xl mb-7">Frequently Asked Questions</h1>
+      <h1 className="text-4xl mb-7">Frequently Asked Questions</h1>
       <img src="/tiny-house-single-bedroom.jpg#right" />
       {posts.map(({ slug, frontmatter, content }) => (
         <div key={slug} className=''>

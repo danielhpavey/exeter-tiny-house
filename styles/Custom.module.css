@@ -13,7 +13,7 @@ img {
 
 img[src$='#right'] {
     float:right;
-    margin: 0 0 1.7rem 1.7rem;
+   margin: 0.7rem  0 1.7rem 1.7rem;
 }
 
 a:not(.tiny-menu) {
@@ -25,9 +25,10 @@ a:not(.tiny-menu) {
     @apply transition duration-500 block px-4 py-2 hover:border-b-4  border-b-4 border-tiny hover:border-white
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 440px) {
     img {
         max-width: 50%!important;
     }
 }
+
 

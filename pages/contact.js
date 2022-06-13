@@ -14,7 +14,7 @@ export default function ContactUsPage({ frontmatter, content }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className='mx-auto prose'>
-                <h1 className="text-5xl mb-7">{frontmatter.title}</h1>
+                <h1 className="text-4xl mb-7">{frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
                 <ContactUs />
             </div>
