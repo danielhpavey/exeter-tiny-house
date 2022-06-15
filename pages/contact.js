@@ -16,7 +16,16 @@ export default function ContactUsPage({ frontmatter, content }) {
             <div className='mx-auto prose'>
                 <h1 className="text-4xl mb-7">{frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-                <ContactUs />
+                <div className='flex gap-8 flex-wrap md:flex-nowrap'>
+                    <div className='md:flex-1'>
+                        <ContactUs />
+                    </div>
+                    <div className='md:flex-1'>
+                    <img 
+                        src='/tudor-tiny-house.jpg' 
+                    />
+                    </div>
+                </div>
             </div>
       </div>
   );

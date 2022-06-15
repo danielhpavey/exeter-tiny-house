@@ -5,7 +5,7 @@ import Image from 'next/image'
 import md from 'markdown-it'
 
 
-export default function IndexPage({ frontmatter, content }) {
+export default function AboutPage({ frontmatter, content }) {
   return (
         <div>
             <Head>

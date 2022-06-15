@@ -85,7 +85,7 @@ export default function ContactUs() {
     console.log(fullname, email, subject, message);
   };
   return (
-    <main className="clear-both pt-8 md:pd-16">
+    <main className="clear-both md:pd-16">
       <div className="block">
         <form
           onSubmit={handleSubmit}

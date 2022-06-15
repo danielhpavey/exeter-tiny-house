@@ -17,6 +17,18 @@ export default function IndexPage({ frontmatter, content }) {
                 <h1 className="text-4xl mb-7">{frontmatter.title}</h1>
                 <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
             </div>
+            <div className='flex justify-between flex-wrap gap-8 md:flex-nowrap'>
+                <div className='block '>
+                    <img 
+                        src='/tiny-house-group.jpg' 
+                    />
+                </div>
+                <div className='block '>
+                    <img 
+                        src='/yurt-in-woods.jpg' 
+                    />
+                </div>
+            </div>
         </div>
   );
 }

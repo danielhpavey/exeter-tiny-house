@@ -12,7 +12,7 @@ img {
 }
 
 img[src$='#right'] {
-    float:right;
+   float:right;
    margin: 0.7rem  0 1.7rem 1.7rem;
 }
 
@@ -26,7 +26,7 @@ a:not(.tiny-menu) {
 }
 
 @media only screen and (min-width: 440px) {
-    img {
+    .mx-auto img[src$='#right'] {
         max-width: 50%!important;
     }
 }

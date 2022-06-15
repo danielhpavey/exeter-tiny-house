@@ -8,8 +8,6 @@ tags:
   - pages
 ---
 
-![Tudor Tiny House](/tudor-tiny-house.jpg#right)
-
 We'd love to hear from you - if you have any questions or are interested in joining us to make this happen! Please pop your message into the contact form below and we'll get back to you as soon as we can.
 
 You can also catch us on [Facebook](https://www.facebook.com/groups/exetertinyhousecommunity/)
