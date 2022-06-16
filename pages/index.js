@@ -19,13 +19,16 @@ export default function IndexPage({ frontmatter, content }) {
             </div>
             <div className='flex justify-between flex-wrap gap-8 md:flex-nowrap'>
                 <div className='block '>
+                    <figure>
                     <img 
-                        src='/tiny-house-group.jpg' 
+                        src='/tiny-house-group.jpg?nf_resize=fit&w=768' 
                     />
+                    <figcaption className='text-center p-4'>Tiny Houses</figcaption>
+                    </figure>
                 </div>
                 <div className='block '>
                     <img 
-                        src='/yurt-in-woods.jpg' 
+                        src='/yurt-in-woods.jpg?nf_resize=fit&w=768' 
                     />
                 </div>
             </div>
