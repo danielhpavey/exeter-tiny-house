@@ -59,7 +59,7 @@ export default function Layout({ children }) {
           </Link>
       </header>
       <main className='container mx-auto flex-1 p-4 text-xl max-w-screen-lg'>{children}</main>
-      <footer className='bg-tiny mt-8 py-4 bg-tree bg-no-repeat h-72 flip'>
+      <footer className='bg-tiny bg-left-bottom mt-8 py-4 bg-tree bg-no-repeat h-72 flip'>
         <div className='container mx-auto flex justify-center'>
         </div>
       </footer>
