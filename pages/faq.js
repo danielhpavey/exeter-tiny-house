@@ -10,6 +10,11 @@ import Link from 'next/link';
 export default function FaqPage({ posts }) {
   return (
     <div className=''>
+    <Head>
+        <title>Exeter Tiny House Community | FAQ</title>
+<meta name="description" content="FAQ | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
+        <link rel="icon" href="/favicon.ico" />
+    </Head>
       <h1 className="text-4xl mb-7">Frequently Asked Questions</h1>
       <img src="/tiny-house-single-bedroom.jpg#right" />
       {posts.map(({ slug, frontmatter, content }) => (
