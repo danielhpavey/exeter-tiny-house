@@ -33,7 +33,6 @@ export default function ContactUs() {
     }
 
     setErrors({ ...tempErrors });
-    console.log("errors", errors);
     return isValid;
   };
 
@@ -82,7 +81,6 @@ export default function ContactUs() {
       setMessage("");
       setSubject("");
     }
-    console.log(fullname, email, subject, message);
   };
   return (
     <main className="clear-both md:pd-16">
