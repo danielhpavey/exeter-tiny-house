@@ -23,6 +23,7 @@ export default function ContactUsPage({ frontmatter, content }) {
                     <div className='md:flex-1'>
                     <img 
                         src='/tudor-tiny-house.jpg' 
+                        alt="Tudor tiny house"
                     />
                     </div>
                 </div>

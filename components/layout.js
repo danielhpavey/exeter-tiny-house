@@ -21,6 +21,7 @@ export default function Layout({ children }) {
   return (
     <div className='flex flex-col min-h-screen font-sans text-gray-700'>
       <button
+          aria-label="Menu"
           className="absolute z-50 right-0 bg-tiny inline-flex p-3 hover:bg-blue-600 md:hidden text-white ml-auto hover:text-white outline-none"
           onClick={handleClick}
               >
