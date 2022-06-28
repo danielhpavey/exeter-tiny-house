@@ -23,7 +23,7 @@ export default function IndexPage({ frontmatter, content }) {
                     <img 
                         src='/tiny-house-group.jpg?nf_resize=fit&w=768' 
                     />
-                    <figcaption className='text-center p-4'>Tiny Houses</figcaption>
+                    <figcaption className='text-center p-4'></figcaption>
                     </figure>
                 </div>
                 <div className='block '>
