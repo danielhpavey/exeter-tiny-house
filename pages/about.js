@@ -3,9 +3,11 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import Image from 'next/image'
 import md from 'markdown-it'
+import Page from '../components/Page'
+import Profile from '../components/Profile'
 
 
-export default function AboutPage({ frontmatter, content }) {
+export default function AboutPage({ posts }) {
   return (
         <div>
             <Head>
@@ -13,22 +15,37 @@ export default function AboutPage({ frontmatter, content }) {
                 <meta name="description" content="About | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className='mx-auto prose'>
-                <h1 className="text-4xl mb-7">{frontmatter.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+
+            <Page f={posts[0].frontmatter} c={posts[0].content}/>
+
+            <div className='mx-auto prose flex flex-wrap gap-x-14 justify-between'>
+              {posts.slice(1).map(({ slug, frontmatter, content }) => (
+                <div key={slug} className='md:w-5/12'>
+                    <Profile f={frontmatter} c={content}/>
+                </div>
+              ))}
             </div>
         </div>
   );
 }
 
 export async function getStaticProps() {
-  const fileName = fs.readFileSync(`posts/pages/about.md`, 'utf-8');
-  const { data: frontmatter, content } = matter(fileName);
+  const files = fs.readdirSync('posts/about');
+
+  const posts = files.map((fileName) => {
+    const slug = fileName.replace('.md', '');
+    const readFile = fs.readFileSync(`posts/about/${fileName}`, 'utf-8');
+    const { data: frontmatter, content } = matter(readFile);
+    return {
+      slug,
+      frontmatter,
+      content
+    };
+  });
+
   return {
     props: {
-      frontmatter,
-      content,
+      posts,
     },
   };
 }
-

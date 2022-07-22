@@ -3,6 +3,7 @@ import fs from 'fs'
 import matter from 'gray-matter'
 import Image from 'next/image'
 import md from 'markdown-it'
+import Page from '../components/Page'
 
 
 export default function IndexPage({ frontmatter, content }) {
@@ -13,10 +14,9 @@ export default function IndexPage({ frontmatter, content }) {
                 <meta name="description" content="Vision | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className='mx-auto prose'>
-                <h1 className="text-4xl mb-7">{frontmatter.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
-            </div>
+
+            <Page f={frontmatter} c={content}/>
+
         </div>
   );
 }
