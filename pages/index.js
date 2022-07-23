@@ -17,23 +17,6 @@ export default function IndexPage({ frontmatter, content }) {
 
             <Page f={frontmatter} c={content}/>
 
-            <div className='flex justify-between flex-wrap gap-8 md:flex-nowrap'>
-                <div className='block '>
-                    <figure>
-                    <img 
-                        src='/tiny-house-group.jpg?nf_resize=fit&w=768' 
-                        alt="Group of tiny house"
-                    />
-                    <figcaption className='text-center p-4'></figcaption>
-                    </figure>
-                </div>
-                <div className='block '>
-                    <img 
-                        src='/yurt-in-woods.jpg?nf_resize=fit&w=768' 
-                        alt="Yurt in the woods"
-                    />
-                </div>
-            </div>
         </div>
   );
 }

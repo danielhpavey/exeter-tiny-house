@@ -8,7 +8,6 @@ tags:
   - pages
 ---
 
-We are currently working hard behind the scenes to make our collective vision a reality and create a beautiful community of tiny homes in or around Exeter in Devon UK. If you are interested in joining us, check out our [About Us](/about) page and then [get in touch](/contact). We also have a really useful [FAQ page](/faq) - let us know if your question is not there so we can add it !
-
+## Coming Soon
 
 
