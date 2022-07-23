@@ -24,9 +24,8 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-            <script dangerouslySetInnerHTML={{ __html: `<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b01336d09fa94eb484715c51cc54a8b0"}'></script><!-- End Cloudflare Web Analytics -->
-` }} />
-                </body>
+          <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b01336d09fa94eb484715c51cc54a8b0"}'></script>
+        </body>
       </Html>
     );
   }
