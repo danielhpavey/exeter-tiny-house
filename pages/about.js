@@ -18,7 +18,7 @@ export default function AboutPage({ posts }) {
 
             <Page f={posts[0].frontmatter} c={posts[0].content}/>
 
-            <div className='mx-auto prose flex flex-wrap gap-x-14 justify-between'>
+            <div className='mx-auto prose flex flex-wrap gap-x-14 justify-between mt-14'>
               {posts.slice(1).map(({ slug, frontmatter, content }) => (
                 <div key={slug} className='md:w-5/12'>
                     <Profile f={frontmatter} c={content}/>
