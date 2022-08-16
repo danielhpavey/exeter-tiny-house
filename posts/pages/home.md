@@ -1,8 +1,8 @@
 ---
 title: 'Welcome'
 metaTitle: 'Welcome to the Exeter Tiny House Community'
-metaDesc: 'Welcome to the Exeter Tiny House Community'
-socialImage: images/22-09-2021.jpg
+metaDesc: 'Welcome to the Exeter Tiny House Community. We are currently working hard behind the scenes to make our collective vision a reality and create a beautiful community of tiny homes in or around Exeter in Devon UK.'
+socialImage: tiny-house-group.jpg
 date: '2021-09-22'
 tags:
   - pages
