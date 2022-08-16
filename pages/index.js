@@ -18,14 +18,14 @@ export default function IndexPage({ frontmatter, content }) {
                   <GeneralHead
                     description={frontmatter.metaDesc}
                     ogUrl={process.env.NEXT_PUBLIC_URL}
-                    ogImage={"/" + frontmatter.socialImage}
-                    ogTitle={frontmatter.title + "  - Exeter Tiny House Community"}
+                    ogImage={frontmatter.socialImage}
+                    ogTitle={frontmatter.title}
                     />
                    <TwitterHead
                     description={frontmatter.metaDesc}
                     ogUrl={process.env.NEXT_PUBLIC_URL}
-                    ogImage={"/" + frontmatter.socialImage}
-                    ogTitle={frontmatter.title + " - Exeter Tiny House Community"}
+                    ogImage={frontmatter.socialImage}
+                    ogTitle={frontmatter.title}
                   />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
