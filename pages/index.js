@@ -4,6 +4,8 @@ import matter from 'gray-matter'
 import Image from 'next/image'
 import md from 'markdown-it'
 import Page from '../components/Page'
+import GeneralHead from '../components/GeneralHead'
+import TwitterHead from '../components/TwitterHead'
 
 
 export default function IndexPage({ frontmatter, content }) {
@@ -12,6 +14,19 @@ export default function IndexPage({ frontmatter, content }) {
             <Head>
                 <title>Exeter Tiny House Community</title>
       <meta name="description" content="Home | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
+
+                  <GeneralHead
+                    description={frontmatter.metaDesc}
+                    ogUrl={process.env.NEXT_PUBLIC_URL}
+                    ogImage={frontmatter.socialImage}
+                    ogTitle={frontmatter.title}
+                    />
+                   <TwitterHead
+                    description={frontmatter.metaDesc}
+                    ogUrl={process.env.NEXT_PUBLIC_URL}
+                    ogImage={frontmatter.socialImage}
+                    ogTitle={frontmatter.title}
+                  />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
