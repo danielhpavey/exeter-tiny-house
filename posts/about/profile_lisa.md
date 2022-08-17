@@ -1,7 +1,7 @@
 ---
 title: 'Lisa'
 metaTitle: Lisa Profile'
-metaDesc: 'RiLisa Profile'
+metaDesc: 'Lisa Profile'
 image: 'profiles/lisa.jpg' 
 tags:
   - profile 
