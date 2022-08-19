@@ -1,8 +1,8 @@
 ---
 title: 'Contact Us'
 metaTitle: 'Welcome to the Exeter Tiny House Community'
-metaDesc: 'Welcome to the Exeter Tiny House Community'
-socialImage: images/22-09-2021.jpg
+metaDesc: "Welcome to the Exeter Tiny House Community. We'd love to hear from you - if you have any questions or are interested in joining us to make this happen!"
+socialImage: tudor-tiny-house.jpg
 date: '2021-09-22'
 tags:
   - pages

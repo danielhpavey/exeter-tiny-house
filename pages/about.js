@@ -6,7 +6,6 @@ import md from 'markdown-it'
 import Page from '../components/Page'
 import Profile from '../components/Profile'
 
-
 export default function AboutPage({ posts }) {
   return (
         <div>
