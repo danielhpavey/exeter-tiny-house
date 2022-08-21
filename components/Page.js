@@ -2,20 +2,22 @@ import md from 'markdown-it'
 import Head from 'next/head'
 import GeneralHead from '../components/GeneralHead'
 import TwitterHead from '../components/TwitterHead'
+import { useRouter } from 'next/router'
 
 export default function Page(data) {
+    const router = useRouter()
     return (
             <div>
                 <Head>
                   <GeneralHead
                     description={data.f.metaDesc}
-                    ogUrl={process.env.NEXT_PUBLIC_URL}
+                    ogUrl={router.pathname}
                     ogImage={data.f.socialImage}
                     ogTitle={data.f.title}
                     />
                    <TwitterHead
                     description={data.f.metaDesc}
-                    ogUrl={process.env.NEXT_PUBLIC_URL}
+                    ogUrl={router.pathname}
                     ogImage={data.f.socialImage}
                     ogTitle={data.f.title}
                   />

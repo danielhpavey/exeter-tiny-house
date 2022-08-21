@@ -15,20 +15,18 @@ export default function FaqPage({ posts }) {
         <title>Exeter Tiny House Community | FAQ</title>
 <meta name="description" content="FAQ | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
         <link rel="icon" href="/favicon.ico" />
-        <Head>
           <GeneralHead
             description="FAQ | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon"
-            ogUrl={process.env.NEXT_PUBLIC_URL}
+            ogUrl="/faq"
             ogImage="tiny-house-single-bedroom.jpg"
             ogTitle="Exeter Tiny House Community | FAQ"
             />
            <TwitterHead
             description="FAQ | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon"
-            ogUrl={process.env.NEXT_PUBLIC_URL}
+            ogUrl="/faq"
             ogImage="tiny-house-single-bedroom.jpg"
             ogTitle="Exeter Tiny House Community | FAQ"
           />
-        </Head>
     </Head>
       <h1 className="text-4xl mb-7">Frequently Asked Questions</h1>
       <img src="/tiny-house-single-bedroom.jpg#right" alt="tiny house single bedroom" />
