@@ -12,7 +12,7 @@ module.exports = {
             sm: '4px'
         },
         fontFamily: {
-            'display': ['Clicker Script']
+            'display': ['Nanum Pen Script']
         },
         colors: {
             'tiny': '#C5C6D0'
