@@ -52,10 +52,10 @@ export default function Layout({ children }) {
 	  	</div>
       </menu>
       <header className='mb-4 bg-tiny py-4 p-4 bg-tree bg-left-bottom bg-contain bg-no-repeat h-72 flex items-end'>
-          <Link href='/'>
+          <Link href='/' className="cursor-pointer">
         <div className='w-full'>
-          <span className='block text-6xl md:text-8xl font-display text-right'>Exeter Tiny</span>
-           <span className='block text-6xl md:text-8xl font-display text-right'>House Community</span>
+          <span className='block text-6xl md:text-8xl font-display text-right cursor-pointer'>Exeter Tiny</span>
+           <span className='block text-6xl md:text-8xl font-display text-right cursor-pointer'>House Community</span>
         </div>
           </Link>
       </header>
