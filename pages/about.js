@@ -17,6 +17,7 @@ export default function AboutPage({ posts }) {
 
             <Page f={posts[0].frontmatter} c={posts[0].content}/>
 
+            <h1 className="text-4xl mb-7">Our Members</h1>
             <div className='mx-auto prose flex flex-wrap gap-x-14 justify-between mt-14'>
               {posts.slice(1).map(({ slug, frontmatter, content }) => (
                 <div key={slug} className='md:w-5/12'>
