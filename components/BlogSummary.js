@@ -16,18 +16,19 @@ export default function BlogSummary(data) {
                     <div className="space-y-5 xl:col-span-3">
                       <div className="space-y-6">
                         <div>
-                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                          <h2 className="text-2xl leading-8 tracking-tight no-underline">
                             <Link
-                              href={'/blog/' + data.slug}
-                              className="text-gray-900 dark:text-gray-100"
+                              href={'/blog/' + data.slug}>
+                              <a className="no-underline tiny-blog-title"
                             >
                               {data.f.title}
+                              </a>
                             </Link>
                           </h2>
                           <div className="flex flex-wrap">
                           </div>
                         </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                        <div className="prose max-w-none">
                           {data.f.metaDesc}
                         </div>
                       </div>
