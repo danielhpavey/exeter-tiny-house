@@ -1,18 +1,48 @@
 import md from 'markdown-it'
 import BlogDate from './BlogDate'
+import Link from 'next/link';
 
 export default function BlogSummary(data) {
     return (
-        <div className='mb-14 flex gap-7'>
-            <div className="w-[200px]">
-                <img src={data.f.image} className="max-w-[200px]" />
-            </div>
-            <div className="flex flex-col justify-center">
-                <h2 className="text-3xl">{data.f.title}</h2>
-                <span><BlogDate d={data.f.date}/></span>
-                <div dangerouslySetInnerHTML={{ __html: data.f.metaDesc }} />
-                <a href={'/blog/' + data.slug}>Read More</a>
-            </div>
-        </div>
+              <li key={data.slug} className="py-12">
+                <article>
+                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                    <dl>
+                      <dt className="sr-only">Published on</dt>
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                	<span><BlogDate d={data.f.date}/></span>
+                      </dd>
+                    </dl>
+                    <div className="space-y-5 xl:col-span-3">
+                      <div className="space-y-6">
+                        <div>
+                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
+                            <Link
+                              href={'/blog/' + data.slug}
+                              className="text-gray-900 dark:text-gray-100"
+                            >
+                              {data.f.title}
+                            </Link>
+                          </h2>
+                          <div className="flex flex-wrap">
+                          </div>
+                        </div>
+                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                          {data.f.metaDesc}
+                        </div>
+                      </div>
+                      <div className="text-base font-medium leading-6">
+                        <Link
+                          href={'/blog/' + data.slug}
+                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          aria-label={`Read "{data.f.title}"`}
+                        >
+                          Read more &rarr;
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
     )
 }

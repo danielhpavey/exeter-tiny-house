@@ -20,7 +20,9 @@ export default function BlogPage({ posts }) {
             <h1 className="text-4xl mb-7">Our Blog</h1>
               {posts.map(({ slug, frontmatter, content }) => (
                 <div key={slug} className=''>
+		  <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                     <BlogSummary f={frontmatter} c={content} slug={slug}/>
+		   </ul>
                 </div>
               ))}
             </div>
