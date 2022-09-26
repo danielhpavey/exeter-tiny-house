@@ -36,10 +36,7 @@ export default function PostPage({ frontmatter, content }) {
             <meta name="description" content={ frontmatter.metaDesc } />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div className='prose mx-auto'>
-            <img src={frontmatter.image + "#right"} />
-            <BlogPage f={frontmatter} c={content}/>
-        </div>
+        <BlogPage f={frontmatter} c={content}/>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function BlogSummary(data) {
     return (
-              <li key={data.slug} className="py-12">
+              <li key={data.slug} className="mb-7">
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>

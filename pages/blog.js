@@ -16,13 +16,13 @@ export default function BlogPage({ posts }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className='mx-auto prose  mt-14'>
+            <div className='mx-auto prose'>
             <h1 className="text-4xl mb-7">Our Blog</h1>
               {posts.map(({ slug, frontmatter, content }) => (
                 <div key={slug} className=''>
-		  <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+		              <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                     <BlogSummary f={frontmatter} c={content} slug={slug}/>
-		   </ul>
+		              </ul>
                 </div>
               ))}
             </div>
