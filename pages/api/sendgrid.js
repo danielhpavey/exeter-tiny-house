@@ -9,12 +9,12 @@ async function sendEmail(req, res) {
     await sendgrid.send({
       to: process.env.NEXT_PUBLIC_SENDGRID_TO, // Your email where you'll receive emails
       from: process.env.NEXT_PUBLIC_SENDGRID_FROM, // your website email address here
+      reply_to: `${req.body.email}`,
       subject: `ETHC Website Contact Form`,
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html lang="en">
       <head>
         <meta charset="utf-8">
-
         <title>The HTML5 Herald</title>
         <meta name="description" content="The HTML5 Herald">
         <meta name="author" content="SitePoint">
