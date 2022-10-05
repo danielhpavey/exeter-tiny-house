@@ -11,13 +11,13 @@ export default function Page(data) {
                 <Head>
                   <GeneralHead
                     description={data.f.metaDesc}
-                    ogUrl={router.pathname}
+                    ogUrl={router.asPath}
                     ogImage={data.f.socialImage}
                     ogTitle={data.f.title}
                     />
                    <TwitterHead
                     description={data.f.metaDesc}
-                    ogUrl={router.pathname}
+                    ogUrl={router.asPath}
                     ogImage={data.f.socialImage}
                     ogTitle={data.f.title}
                   />

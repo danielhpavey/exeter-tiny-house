@@ -7,20 +7,21 @@ import BlogDate from './BlogDate'
 
 export default function Page(data) {
     const router = useRouter()
+
     return (
             <div>
                 <Head>
                   <GeneralHead
                     description={data.f.metaDesc}
-                    ogUrl={router.pathname}
-                    ogImage={data.f.socialImage}
-                    ogTitle={data.f.title}
+                    ogUrl={router.asPath}
+                    ogImage={data.f.image}
+                    ogTitle={data.f.metaTitle}
                     />
                    <TwitterHead
                     description={data.f.metaDesc}
-                    ogUrl={router.pathname}
-                    ogImage={data.f.socialImage}
-                    ogTitle={data.f.title}
+                    ogUrl={router.asPath}
+                    ogImage={data.f.image}
+                    ogTitle={data.f.metaTitle}
                   />
                 </Head>
         <div className='mx-auto prose'>
