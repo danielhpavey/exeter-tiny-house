@@ -1,6 +1,6 @@
 ---
 title: 'Exeter Tiny House Community Q&A - 7.30 on Monday 3rd October'
-metaTitle: 'Exeter Tiny House Community Q&A - 7.30 on Monday 3rd October'
+metaTitle: 'Exeter Tiny House Community Q&A 3rd October'
 metaDesc: 'An online Zoom chat where you can meet members of the working group and ask questions.'
 date: '2022-09-29'
 image: '/blog/questions.jpg'

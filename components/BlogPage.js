@@ -1,7 +1,7 @@
 import md from 'markdown-it'
 import Head from 'next/head'
-import GeneralHead from '../components/GeneralHead'
-import TwitterHead from '../components/TwitterHead'
+import GeneralHead from './GeneralHead'
+import TwitterHead from './TwitterHead'
 import { useRouter } from 'next/router'
 import BlogDate from './BlogDate'
 
