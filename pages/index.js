@@ -15,10 +15,15 @@ export default function IndexPage({ frontmatter, content }) {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             
-            <Page f={frontmatter} c={content}/>
-
-            <BlogWidget />
-            
+          <div className="grid md:grid-cols-2 md:gap-8">
+            <div>
+              <Page f={frontmatter} c={content}/>
+            </div>
+            <div className="md:text-right">
+             <BlogWidget />
+            </div>
+          </div>
+                
             <div className='flex justify-between flex-wrap gap-8 md:flex-nowrap'>
                 <div className='block '>
                     <figure>
