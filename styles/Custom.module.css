@@ -6,7 +6,7 @@ p {
     margin-bottom: 1.7rem!important;
 }
 
-img {
+img:not(.no-shadow) {
     margin: 0 auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 2px 2px 17px rgba(0, 0, 0, 0.35), 2px 2px 25px rgba(0, 0, 0, 0.5);
 }

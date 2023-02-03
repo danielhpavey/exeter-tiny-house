@@ -26,7 +26,7 @@ export default function Page(data) {
                 </Head>
         <div className='mx-auto prose'>
             <h1 className="text-4xl mb-7">{data.f.title}</h1>
-            <img src={data.f.image + "#right"} alt={data.f.metaTitle} />
+            <img className="no-shadow" src={data.f.image + "#right"} alt={data.f.metaTitle} />
             <span className="mb-7 block text-gray-500 text-base -mt-5"><BlogDate d={data.f.date}/></span>
             <div dangerouslySetInnerHTML={{ __html: md().render(data.c) }} />
         </div>
