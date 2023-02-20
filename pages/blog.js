@@ -33,6 +33,7 @@ export default function BlogPage({ posts }) {
 
 export async function getStaticProps() {
   const files = fs.readdirSync('posts/blog');
+  files.sort((a, b) => a.position > b.position ? 1 : -1 );
 
   const posts = files.map((fileName) => {
     const slug = fileName.replace('.md', '');
