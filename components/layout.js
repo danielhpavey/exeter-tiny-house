@@ -44,14 +44,13 @@ export default function Layout({ children }) {
             active ? '' : 'hidden'
           }   sticky top-0 md:flex`}>
 	  	<div className="w-full bg-tiny md:text-right text-lg h-screen md:h-auto flex flex-col text-center text-6xl md:text-xl md:inline-block">
-	  		<span className="inline-block "><Link href='/'><a className="tiny-menu">Home</a></Link></span>
-	  		<span className="inline-block "><Link href='/about'><a className="tiny-menu">About</a></Link></span>
-	  		<span className="inline-block "><Link href='/vision'><a className="tiny-menu">Vision</a></Link></span>
-	  		<span className="inline-block "><Link href='/contact'><a className="tiny-menu">Contact</a></Link></span>
-	  		<span className="inline-block "><Link href='/faq'><a className="tiny-menu">FAQ</a></Link></span>
+	  		<span className="inline-block border-b-2"><Link href='/'><a className="tiny-menu">Home</a></Link></span>
+ 	  		<span className="inline-block border-b-2"><Link href='/vision'><a className="tiny-menu">Vision</a></Link></span>
+	  		<span className="inline-block border-b-2"><Link href='/contact'><a className="tiny-menu">Contact</a></Link></span>
+	  		<span className="inline-block border-b-2"><Link href='/faq'><a className="tiny-menu">FAQ</a></Link></span>
 	  	</div>
       </menu>
-      <header className='mb-4 bg-tiny py-4 p-4 bg-tree bg-left-bottom bg-contain bg-no-repeat h-72 flex items-end'>
+      <header className='mb-4 bg-tiny py-4 p-4 bg-tree bg-left-bottom bg-contain bg-no-repeat h-72 flex items-end relative'>
           <Link href='/' className="cursor-pointer">
         <div className='w-full'>
           <span className='block text-6xl md:text-8xl font-display text-right cursor-pointer'>Exeter Tiny</span>
