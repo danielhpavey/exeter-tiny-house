@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import md from 'markdown-it';
 import BlogPage from '../../components/BlogPage'
 import Head from 'next/head'
+import CrowdfunderButton from '../../components/CrowdfunderButton';
 
 export async function getStaticPaths() {
   const files = fs.readdirSync('posts/blog');
@@ -37,6 +38,8 @@ export default function PostPage({ frontmatter, content }) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <BlogPage f={frontmatter} c={content}/>
+        {frontmatter.title=='Exeter Tiny House Community Crowdfunder Launch' && <CrowdfunderButton />}
+        
     </div>
   );
 }
