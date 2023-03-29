@@ -12,7 +12,3 @@ After a lot of hard work behind the scenes, we are thrilled to say we are moving
 This will give us the official legal status we need to move ahead with purchasing land and creating our Tiny House Community here in the South West. 
 
 If you're able to chip in a little to help us move forward, we'd be ever so grateful. Thank you so much for your support. It means so much to all of us.  
-
-[Visit our Crowdfunder page here: www.crowdfunder.co.uk/p/ethc](https://www.crowdfunder.co.uk/p/ethc)
-
-or:
