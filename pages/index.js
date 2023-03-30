@@ -4,6 +4,7 @@ import matter from 'gray-matter'
 import Image from 'next/image'
 import md from 'markdown-it'
 import Page from '../components/Page'
+import BlogWidget from '../components/BlogWidget'
 
 export default function IndexPage({ frontmatter, content }) {
   return (
@@ -13,9 +14,16 @@ export default function IndexPage({ frontmatter, content }) {
       <meta name="description" content="Home | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <Page f={frontmatter} c={content}/>
-
+            
+          <div className="grid md:grid-cols-2 md:gap-8">
+            <div>
+              <Page f={frontmatter} c={content}/>
+            </div>
+            <div className="md:text-right">
+             <BlogWidget />
+            </div>
+          </div>
+                
             <div className='flex justify-between flex-wrap gap-8 md:flex-nowrap'>
                 <div className='block '>
                     <figure>

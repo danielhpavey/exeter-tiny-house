@@ -6,7 +6,7 @@ p {
     margin-bottom: 1.7rem!important;
 }
 
-img {
+img:not(.no-shadow) {
     margin: 0 auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 2px 2px 17px rgba(0, 0, 0, 0.35), 2px 2px 25px rgba(0, 0, 0, 0.5);
 }
@@ -16,7 +16,7 @@ img[src$='#right'] {
    margin: 0.7rem  0 1.7rem 1.7rem;
 }
 
-a:not(.tiny-menu) {
+a:not(.tiny-menu):not(.tiny-blog-title) {
    @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
 }
 
