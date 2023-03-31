@@ -15,7 +15,8 @@ module.exports = {
             'display': ['Comfortaa', 'cursive']
         },
         colors: {
-            'tiny': '#C5C6D0'
+            'tiny': '#31708e',
+            'tiny-off-white': '#f7f9fb'
         }
     }
   },
