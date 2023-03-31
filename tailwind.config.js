@@ -12,7 +12,7 @@ module.exports = {
             sm: '4px'
         },
         fontFamily: {
-            'display': ['Nanum Pen Script']
+            'display': ['Comfortaa', 'cursive']
         },
         colors: {
             'tiny': '#C5C6D0'
