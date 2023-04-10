@@ -2,9 +2,9 @@
     transform: scaleX(-1)
 }
 
-p {
+/* p, li {
     margin-bottom: 1.7rem!important;
-}
+} */
 
 img:not(.no-shadow) {
     margin: 0 auto;
@@ -30,5 +30,4 @@ a:not(.tiny-menu):not(.tiny-blog-title) {
         max-width: 50%!important;
     }
 }
-
 

@@ -48,6 +48,7 @@ export default function Layout({ children }) {
 	  		<span className="inline-block "><Link href='/about'><a className="tiny-menu">About</a></Link></span>
 	  		<span className="inline-block "><Link href='/vision'><a className="tiny-menu">Vision</a></Link></span>
 	  		<span className="inline-block "><Link href='/blog'><a className="tiny-menu">Blog</a></Link></span>
+        <span className="inline-block "><Link href='/membership'><a className="tiny-menu">Membership</a></Link></span>
 	  		<span className="inline-block "><Link href='/contact'><a className="tiny-menu">Contact</a></Link></span>
 	  		<span className="inline-block "><Link href='/faq'><a className="tiny-menu">FAQ</a></Link></span>
 	  	</div>
