@@ -2,9 +2,9 @@
     transform: scaleX(-1)
 }
 
-p, li {
+/* p, li {
     margin-bottom: 1.7rem!important;
-}
+} */
 
 img:not(.no-shadow) {
     margin: 0 auto;
