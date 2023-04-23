@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 
-export default function NewsletterPage({ }) {
+export default function NewsletterPage({}) {
   return (
         <div>
             <Head>
@@ -28,8 +28,8 @@ We plan to publish the newsletter every 8 to 12 weeks, and you will receive your
 	<span id="mce-EMAIL-HELPERTEXT" className="helper_text"></span>
 </div>
 	<div id="mce-responses" className="clear foot">
-		<div className="response" id="mce-error-response" className="hidden"></div>
-		<div className="response" id="mce-success-response" className="hidden"></div>
+		<div id="mce-error-response" className="response hidden"></div>
+		<div id="mce-success-response" className="response hidden"></div>
 	</div> 
     <div  aria-hidden="true" className="hidden"><input type="text" name="b_a6868afc91d079e3d8dd2add9_92b466748d" tabIndex="-1" defaultValue="" /></div>
         <div className="optionalParent">
