@@ -12,5 +12,7 @@ We'd love to hear from you - if you have any questions or are interested in join
 
 You can also catch us on [Facebook](https://www.facebook.com/groups/exetertinyhousecommunity/)
 
+You can signup for our [newsletter here](/newsletter)
+
 Or email us directly on [hello@exetertinyhousecommunity.org](mailto:hello@exetertinyhousecommunity.org)
 
