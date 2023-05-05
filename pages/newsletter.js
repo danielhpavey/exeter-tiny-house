@@ -41,7 +41,7 @@ We plan to publish the newsletter every 8 to 12 weeks, and you will receive your
         </div>
     </div>
 </form>
-    <p className="text-sm">We won't pass your email address on to anyone else and you can unsubscribe at any time by clicking on the link at the bottom of the newsletter.</p>
+    <p className="text-sm">We won&apos;t pass your email address on to anyone else and you can unsubscribe at any time by clicking on the link at the bottom of the newsletter.</p>
 </div>
 </div>
                     <div className='md:flex-1'>
