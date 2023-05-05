@@ -9,8 +9,9 @@ export default function NewsletterPage({}) {
                 <meta name="description" content="About | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-
+            <div className='mx-auto prose'>
+                <div className='flex gap-8 flex-wrap md:flex-nowrap'>
+                    <div className='md:flex-1'>
 <div id="mc_embed_signup" >
     <form action="https://exetertinyhousecommunity.us21.list-manage.com/subscribe/post?u=a6868afc91d079e3d8dd2add9&amp;id=92b466748d&amp;f_id=00bfa7e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_self">
         <div id="mc_embed_signup_scroll">
@@ -40,7 +41,17 @@ We plan to publish the newsletter every 8 to 12 weeks, and you will receive your
         </div>
     </div>
 </form>
+    <p className="text-sm">We won't pass your email address on to anyone else and you can unsubscribe at any time by clicking on the link at the bottom of the newsletter.</p>
 </div>
+</div>
+                    <div className='md:flex-1'>
+                    <img className="no-shadow"
+                        src='/newsletter.png' 
+                        alt="Tudor tiny house"
+                    />
+                    </div>
+                </div>
+            </div>
 </div>
   );
 }
