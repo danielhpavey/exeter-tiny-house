@@ -5,8 +5,8 @@ export default function NewsletterPage({}) {
   return (
         <div>
             <Head>
-                <title>Exeter Tiny House Community | About Us</title>
-                <meta name="description" content="About | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
+                <title>Exeter Tiny House Community | Newsletter Signup</title>
+                <meta name="description" content="Newsletter Signup | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className='mx-auto prose'>
