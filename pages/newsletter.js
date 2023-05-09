@@ -1,13 +1,21 @@
 import Head from 'next/head'
-
+import GeneralHead from '../components/GeneralHead'
+import { useRouter } from 'next/router'
 
 export default function NewsletterPage({}) {
+  const router = useRouter()
   return (
         <div>
             <Head>
                 <title>Exeter Tiny House Community | Newsletter Signup</title>
                 <meta name="description" content="Newsletter Signup | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon" />
                 <link rel="icon" href="/favicon.ico" />
+                <GeneralHead
+                    description="Newsletter Signup | Exeter Tiny House Community | Creating a community of tiny homes in or around Exeter in Devon"
+                    ogUrl={router.asPath}
+                    ogImage="/newsletter.png"
+                    ogTitle="Newsletter Signup"
+                    />
             </Head>
             <div className='mx-auto prose'>
                 <div className='flex gap-8 flex-wrap md:flex-nowrap'>
