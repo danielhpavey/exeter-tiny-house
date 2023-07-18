@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import GeneralHead from '../components/GeneralHead'
 import { useRouter } from 'next/router'
+import { Script } from "next/script";
 
 export default function NewsletterPage({}) {
   const router = useRouter()
@@ -58,6 +59,18 @@ We plan to publish the newsletter every 8 to 12 weeks, and you will receive your
                         alt="Tudor tiny house"
                     />
                     </div>
+                </div>
+                <div>
+
+<div>
+    <h2>Newsletter Archive</h2>
+    <>
+      <Script
+        id="stripe-js"
+        src="https://js.stripe.com/v3/"
+      />
+    </>
+</div>
                 </div>
             </div>
 </div>
