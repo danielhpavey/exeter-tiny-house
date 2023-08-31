@@ -1,7 +1,7 @@
 ---
 title: 'What is a Tiny House'
 metaTitle: 'What is a Tiny House'
-metaDesc: 'Here are two members of our new Sites circle Diane and Sharon spending a lovely morning together on a site visit near Exeter.'
+metaDesc: 'In a world where bigger often seems better, the tiny house movement stands as a delightful and innovative rebellion. A tiny house is not just a diminutive structure; it is a lifestyle, a philosophy, and a commitment to simplicity.'
 date: '2023-08-31'
 image: '/tiny-house-with-veranda.jpg'
 tags:
