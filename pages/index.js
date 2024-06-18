@@ -36,8 +36,8 @@ export default function IndexPage({ frontmatter, content }) {
                 </div>
                 <div className='block '>
                     <img 
-                        src='/yurt-in-woods.jpg?nf_resize=fit&w=768' 
-                        alt="Yurt in the woods"
+                        src='/exeter-tiny-house-community-members-under-a-tree.jpg?nf_resize=fit&w=768' 
+                        alt="Exeter Tiny House Community Members Under A Tree"
                     />
                 </div>
             </div>
