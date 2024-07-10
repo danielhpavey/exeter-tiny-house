@@ -11,11 +11,15 @@ img:not(.no-shadow) {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 2px 2px 17px rgba(0, 0, 0, 0.35), 2px 2px 25px rgba(0, 0, 0, 0.5);
 }
 
-img[src$='#right'] {
+figure {
    float:right;
    margin: 0.7rem  0 1.7rem 1.7rem;
 }
 
+figcaption {
+    text-align: center;
+    font-size: 0.7em;
+}
 a:not(.tiny-menu):not(.tiny-blog-title) {
    @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
 }
@@ -26,8 +30,9 @@ a:not(.tiny-menu):not(.tiny-blog-title) {
 }
 
 @media only screen and (min-width: 440px) {
-    .mx-auto img[src$='#right'] {
+    .mx-auto figure {
         max-width: 50%!important;
+        margin: .7rem 0 1.7rem 1.7rem; 
     }
 }
 
