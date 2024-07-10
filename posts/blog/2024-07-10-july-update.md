@@ -25,5 +25,6 @@ And finally, our search for land continues. We have visited eleven sites so far 
 
 We also have several wonderful friends and advisors who guide us, and we are most grateful to them. Plus we continue to ally with other Co-Housing and intentional communities to learn from them. 
 
-
 Thank you so much to everyone who contributed towards our crowdfunder last year. These funds have enabled us to pay the £500 costs of setting up the CBS plus the NVC training and being able to pay for expert planning advice. 
+
+*Picture is Sue, Sharon, Susie & Mary at a site visit in East Devon.*
