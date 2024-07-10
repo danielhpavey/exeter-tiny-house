@@ -27,4 +27,4 @@ We also have several wonderful friends and advisors who guide us, and we are mos
 
 Thank you so much to everyone who contributed towards our crowdfunder last year. These funds have enabled us to pay the £500 costs of setting up the CBS plus the NVC training and being able to pay for expert planning advice. 
 
-*Picture is Sue, Sharon, Susie & Mary at a site visit in East Devon.*
+*Photo at the top is of Sue, Sharon, Susie & Mary at a recent site visit in East Devon.*
