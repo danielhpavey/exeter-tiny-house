@@ -1,6 +1,6 @@
 ---
-title: 'Community Benefits Society Launch'
-metaTitle: 'Community Benefits Society Launch'
+title: 'Community Benefit Society Launch'
+metaTitle: 'Community Benefit Society Launch'
 metaDesc: "We here at Exeter Tiny House Community are very pleased to announce that our official launch as a Community Benefit Society is happening on Saturday 5th October and you are invited."
 date: '2024-09-24'
 image: '/launch.png'
