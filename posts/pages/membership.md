@@ -8,23 +8,28 @@ tags:
   - pages
 ---
 
-**Step 1** - Familiarise yourself with the [ETHC Facebook Page](https://en-gb.facebook.com/groups/exetertinyhousecommunity/) and the website. There is quite a lot of useful information on the [FAQs](/faq) page and we will be happy to answer any further questions you might have through the [contact page](/contact).
+ - Inform yourself about ETHC by joining the [Facebook Group](https://en-gb.facebook.com/groups/exetertinyhousecommunity/) and reading the relevant content and/or familiarising yourself with the website, especially the Vision and shared values, which identify what we are agreeing to when we join.
 
-**Step 2** - Join the [Exeter Tiny House Community Facebook Page](https://en-gb.facebook.com/groups/exetertinyhousecommunity/).  We ask you to answer 3 simple questions to help us on the journey of getting to know each other.
+ - Apply to join the working group by completing the application form on the website. 
 
-**Step 3** - Attend a Zoom Q & A session.  We hold these about every 6 weeks.  It’s an opportunity to introduce yourself, meet some of the members of the community, find out our latest news and activities and ask any questions that you might have.
+ - Zoom with a member of the community to give more detail, explain sociocracy, circles etc and answer questions.
 
-**Step 4** - Complete a Membership Form.  This helps us to see if our vision and values are aligned and gives you a chance to share the skills and experience that you would be bringing to the community.
+ - Meet, in-person, members of the community, ideally attending an in- person social, or if not possible, meeting for coffee and a chat. 
 
-**Step 5** - You get a ‘Buddy’. Our buddying system helps to make sure that you get all the information that you need in this membership process and supports your integration into the group.
+ - Observe circle meetings.
 
-**Step 6** - Circle observation. You will be invited to observe at several circle meetings.  This will give you an idea of how we work in circles and also what each of the circles entails.  From there you will be able to decide which circle you would be most suited to join. In Sociocracy, nothing is forever.  So moving between circles is easy and, at certain times, may be necessary if a particular project requires more people etc.
+ -  Join a circle and get a ‘buddy’.
 
-**Step 7** - Join the General What’s App group. You will be party to the general chat between members
+ - Get access to What’s App, google docs etc.
 
-**Step 8** - Join a Circle. Currently these are Entity, Communications and Wellbeing.  More groups will be established as the group grows and the need for other circles arises.
+ Because membership of this group is the route to residency, all working group members are required to take an active role.
 
-**Welcome you are a fully active member**
+This includes contributing to circle activities by volunteering for tasks and ensuring circle roles and actions are shared fairly.   
+
+Members will attend meetings and socials, take an active role in them and give apologies if unable to be present. 
+
+If a member is inactive for 3 months (agreement may be made in exceptional circumstances), they will be asked to leave the group. In those circumstances, they will be contacted and given 2 weeks to discuss circumstances before a decision is made by the whole group. 
+
 
 
 
