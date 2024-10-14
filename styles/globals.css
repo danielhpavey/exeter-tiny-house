@@ -2,3 +2,19 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import './Custom.module.css';
+
+h1 {
+    @apply text-4xl mb-7;
+}
+
+h2 {
+    @apply text-2xl mb-3;
+}
+
+.prose ul {
+    @apply list-disc mb-7 ml-4;
+}
+
+.prose ul li {
+    @apply mb-3; 
+}
