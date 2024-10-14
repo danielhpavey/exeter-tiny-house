@@ -16,5 +16,5 @@ h2 {
 }
 
 .prose ul li {
-    @apply mb-3;
+    @apply mb-3; 
 }

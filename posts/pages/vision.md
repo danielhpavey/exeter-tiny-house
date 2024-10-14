@@ -41,8 +41,7 @@ We have taken some time to create this shared group agreement. We feel it brings
 
 It is a living document that will be reviewed and amended as the community requires but reflects the vision and aspirations that we are calling new members to.
 
-## Community Living
-
+**Community Living** 
 - We believe in inclusivity and feel our community should reflect and actively promote this value.
 - We prioritise the development and nurturing of our relationships with each other.
  - We are passionate about creating an intergenerational 'village' like community to be truly resilient in these times of uncertainty.
@@ -57,8 +56,7 @@ It is a living document that will be reviewed and amended as the community requi
 - We would like to promote our community as a great example of tiny house/community living which can be replicated.
 - We aspire to use transport that is as sustainable as possible.
 
-## Location
-
+**Location**
 - We are all passionate about living with nature so our site must embrace this with plants, trees, wildlife etc.
 - Our site will be within a reasonable distance of an established settlement/community. 
 - Our site must not be too exposed so we can grow food (particularly with extreme weather events increasing).
@@ -69,16 +67,14 @@ It is a living document that will be reviewed and amended as the community requi
 - We will endeavour to be out of sight or sound of farm buildings where animals are being harmed.
 - We will not be within sight or sound of a slaughterhouse.
 
-## Services
-
+**Services**
 - We will aim to be as off grid or energy self-sufficient as possible (although we appreciate this could take time to achieve).
 - Insulation and preservation of energy and resources is key so we don't use more than we need.
 - Mobile phone connection is essential.
 - Internet connection is essential.
 - We require a water source, preferably spring/borehole so we are self-sufflicient
 
-## Outside Spaces
-
+**Outside Spaces**
 - We will have a mix of private outside spaces & communal outside spaces.
 - Our site will have space for a shared growing area or access to one nearby.
 - Rewilding is important to us and should be incorporated if possible.
@@ -89,8 +85,7 @@ It is a living document that will be reviewed and amended as the community requi
 - We are in general agreement that we want to grow organically & endeavour to cause as least harm to other species as possible. We will discuss the details of this further when we are developing the site.
 - It is not a priority but having a place to swim nearby is desirable.
 
-## Design
-
+**Design**
 - We recognise the environmental importance of using truly sustainable locally sourced or reclaimed materials to create our buildings.
 - We will use energy reducing building techniques where possible.
 - We will use local labour and artisanship wherever possible.
