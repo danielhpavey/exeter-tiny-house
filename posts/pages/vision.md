@@ -69,7 +69,7 @@ It is a living document that will be reviewed and amended as the community requi
 - We will endeavour to be out of sight or sound of farm buildings where animals are being harmed.
 - We will not be within sight or sound of a slaughterhouse.
 
-# Services
+## Services
 
 - We will aim to be as off grid or energy self-sufficient as possible (although we appreciate this could take time to achieve).
 - Insulation and preservation of energy and resources is key so we don't use more than we need.
@@ -77,7 +77,7 @@ It is a living document that will be reviewed and amended as the community requi
 - Internet connection is essential.
 - We require a water source, preferably spring/borehole so we are self-sufflicient
 
-# Outside Spaces
+## Outside Spaces
 
 - We will have a mix of private outside spaces & communal outside spaces.
 - Our site will have space for a shared growing area or access to one nearby.
@@ -89,7 +89,7 @@ It is a living document that will be reviewed and amended as the community requi
 - We are in general agreement that we want to grow organically & endeavour to cause as least harm to other species as possible. We will discuss the details of this further when we are developing the site.
 - It is not a priority but having a place to swim nearby is desirable.
 
-# Design
+## Design
 
 - We recognise the environmental importance of using truly sustainable locally sourced or reclaimed materials to create our buildings.
 - We will use energy reducing building techniques where possible.
